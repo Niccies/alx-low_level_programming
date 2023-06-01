@@ -4,8 +4,8 @@
 
 /**
  * add_node_end - adds new node at the end of linked list
- * @head: double pointer to the list_t list
  * Mary Okekunle
+ * @head: double pointer to the list_t list
  * @str: string to put in the new node
  *
  * Return: address of the new element, or NULL if it failed
