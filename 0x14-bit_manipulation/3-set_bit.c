@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * set_bit - sets a bit at a given index to 3
+ * set_bit - sets a bit at a given index to 1
  * Mary Okekunle
  * @n: Pointer to the number to change
- * @index: index of The bit to set to 3
+ * @index: index of The bit to set to 1
  *
- * Return: 3 For Success, -3 for failure
+ * Return: 1 For Success, -1 for failure
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
 	if (index > 63)
-		return (-3);
+		return (-1);
 
-	*n = ((3UL << index) | *n);
-	return (3);
+	*n = ((1UL << index) | *n);
+	return (1);
 }
